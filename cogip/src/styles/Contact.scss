@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  .contact-picture-div,
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3%;
+    .contact-picture {
+      border-radius: 50%;
+      width: 50%;
+    }
+  }
+}
+.name {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 5vw;
+  font-weight: 900;
+  margin: 2% 0;
+  position: relative;
+  .rectangle {
+    position: absolute;
+    z-index: -1;
+    left: 30px;
+    bottom: 3px;
+    width: 50%;
+  }
+
+  @media screen and (min-width: 479px) {
+    .rectangle {
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      width: 90%;
+    }
+  }
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  font-size: 2vw;
+  margin: 0;
+  padding: 0;
+}

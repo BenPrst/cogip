@@ -1,0 +1,28 @@
+.line {
+  background-color: #f9de4e;
+  border-style: none;
+  height: 1px;
+  margin: 0 5%;
+}
+
+.line-1 {
+  background-color: #a5ffff;
+  border-style: none;
+  height: 1px;
+  margin: 0 5%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-bot {
+  display: flex;
+  justify-content: space-around;
+}
